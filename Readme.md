@@ -55,7 +55,7 @@ docker push azureconatinerloginserver/imagename
 ## Create the Azure function with Docker container  with App Service plan not with consumption plan
 After you creating the function open the function and select the Deployment setting, then select from where you can deploy the deploy the Custom docker image i.e either **Docker Hub** or **Azure container Registry** 
 
-$Save the setting 
+## Save the setting 
 Now you successfully built and deployed the Azure function. Contragulations 
 
 
