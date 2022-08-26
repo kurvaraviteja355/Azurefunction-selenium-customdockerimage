@@ -48,7 +48,8 @@ docker push DockerID/imagename .
 
 to Azure Conatiner container registry
 ```
-docker -tag Dockerid/imagename azureconatinerloginserver/imagename
+docker login myregistry.azurecr.io
+docker tag Dockerid/imagename azureconatinerloginserver/imagename
 docker push azureconatinerloginserver/imagename
 ```
 
